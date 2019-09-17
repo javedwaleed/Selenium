@@ -1,0 +1,108 @@
+
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <style>
+
+            * {
+
+                margin:0;
+
+                padding:0;
+
+            }
+
+            #heading {
+
+                max-width: 100%;
+
+                background: linear-gradient(teal,white);
+
+                padding: 50px;
+
+                text-align: center;
+
+                color:white;
+
+                text-shadow: 0 0 2px black, 0 0 5px lightskyblue;
+
+                letter-spacing: 5pt;
+
+            }
+
+            div.polaroid {
+
+                width: 80%;
+
+                background-color: white;
+
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+                margin-bottom:40px;
+
+                margin-left: auto;
+
+                margin-right: auto;
+
+            }
+
+?
+
+            img {width: 100%}
+
+?
+
+            div.container {
+
+                text-align: center;
+
+                padding: 10px 20px;
+
+            }
+
+            
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <h1 id="heading"> IMAGE GALLERY</h1>
+
+        <div class="polaroid">
+
+            <img src="lights600x400.jpg">
+
+            <div class="container">
+
+                Some Text
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="polaroid">
+
+            <img src="img_5terre.jpg">
+
+            <div class="container">
+
+                Some Text
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
+
